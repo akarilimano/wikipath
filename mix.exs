@@ -27,6 +27,11 @@ defmodule Wikipath.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+	{:httpoison, "~> 0.6"},
+	{:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.0"},
+	{:httpotion, "~> 1.0.0"},
+	{:floki, "~> 0.0.5"}
+    ]
   end
 end
