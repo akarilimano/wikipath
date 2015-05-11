@@ -1,0 +1,2 @@
+defmodule Wikipath do
+end
