@@ -33,7 +33,7 @@ defmodule Wikipath do
 				wait_until_done
 			
 			# Shortest path found. Halting
-			{:minimal_length_found, new_length, path} →
+			{:minimal_length_found, new_length, path} ->
 				IO.puts "output > Minimal length is #{new_length}, path is #{path}"
 		end
 	end
